@@ -19,7 +19,7 @@
            sync-j="4" />
 
  <!-- snippets -->
-  <include name="snippets/hal_cm_all.xml" />
+  <include name="HL_cm/hal_cm_all.xml" />
   <!--include name="toolchains/toolchains_all.xml" /-->
   <include name="xioami/xioami_all.xml" />
   <!--include name="bliss/bliss_all.xml" /-->
