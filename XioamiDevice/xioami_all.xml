@@ -7,6 +7,7 @@
   <project path="manifest" name="MI-4i/manifest" revision="android-n-preview-2"  />
   <project path="device/qcom/sepolicy" name="MI-4i/platform_device_qcom_sepolicy" revision="android-n"  />
   <project path="vendor/aosp" name="MI-4i/platform_vendor_aosp" revision="jf-n-preview1" /> 
+  <project path="frameworks/native" name="MI-4i/android_frameworks_native" /> 
   <project path="bionic" name="MI-4i/android_bionic" groups="pdk" revision="jf-n-preview1"/>
   <project path="device/xiaomi/ferrari" name="MI-4i/android_device_xiaomi_ferrari" revision="android-n" />
   <project path="kernel/xiaomi/ferrari" name="MI-4i/android_kernel_xiaomi_ferrari" />
