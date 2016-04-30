@@ -13,8 +13,6 @@
   <project path="device/qcom/common" name="MI-4i/android_device_qcom_common" />
   <project path="external/stlport" name="MI-4i/android_external_stlport" />
   <project path="external/sony/boringssl-compat" name="MI-4i/android_external_sony_boringssl-compat" />
-  
-  <project path="vendor/xiaomi/ferrari" name="MI-4i/android_vendor_xiaomi_ferrari" />
   <project path="packages/apps/AudioFX" name="MI-4i/android_packages_apps_AudioFX" />
   <project path="packages/apps/SetupWizard" name="MI-4i/android_packages_apps_SetupWizard" />
   <project path="vendor/xiaomi/ferrari" name="MI-4i/android_vendor_xiaomi_ferrari" />
