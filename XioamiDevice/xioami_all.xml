@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-   <project path="build" name="MI-4i/platform_build" groups="pdk" revision="android-n" >
+   <project path="build" name="MI-4i/build-1" groups="pdk" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="manifest" name="MI-4i/manifest" revision="android-n-preview-2"  />
+  <project path="frameworks/base" name="MI-4i/frameworks_base" revision="master" />
   <project path="device/qcom/sepolicy" name="MI-4i/platform_device_qcom_sepolicy" revision="android-n"  />
   <project path="vendor/aosp" name="MI-4i/platform_vendor_aosp" revision="android-n" /> 
   <project path="frameworks/native" name="MI-4i/android_frameworks_native" /> 
