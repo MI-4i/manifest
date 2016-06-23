@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+   <project path="build" name="MI-4i/build-1" groups="pdk" revision="master" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="device/xiaomi/ferrari" name="MI-4i/android_device_xiaomi_ferrari" revision="cm-13.0" />
+  <project path="vendor/xiaomi/ferrari" name="MI-4i/android_vendor_xiaomi_ferrari" revision="cm-13.0" />
+  <project path="manifest" name="MI-4i/manifest" revision="nn-7" />
+  <project path="frameworks/base" name="MI-4i/frameworks_base" revision="cm-13.0" />
+  <project path="device/qcom/sepolicy" name="MI-4i/platform_device_qcom_sepolicy" revision="android-n"  />
+  <!--project path="vendor/aosp" name="MI-4i/platform_vendor_aosp" revision="android-n" /--> 
+  <project path="frameworks/native" name="MI-4i/android_frameworks_native" revision="cm-13.0" /> 
+  <project path="bionic" name="MI-4i/bionic" groups="pdk" revision="master2" />
+  <project path="kernel/xiaomi/ferrari" name="MI-4i/android_kernel_xiaomi_ferrari" revision="cm-13.0" />
+  <project path="device/qcom/common" name="MI-4i/android_device_qcom_common" revision="cm-13.0" />
+  <project path="external/stlport" name="MI-4i/android_external_stlport" revision="cm-13.0" />
+  <project path="external/sony/boringssl-compat" name="MI-4i/android_external_sony_boringssl-compat" revision="cm-13.0" />
+  <!--project path="packages/apps/AudioFX" name="MI-4i/android_packages_apps_AudioFX" /-->
+  <project path="packages/apps/SetupWizard" name="MI-4i/android_packages_apps_SetupWizard" revision="cm-13.0" />
+  
+</manifest>
