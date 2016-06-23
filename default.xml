@@ -540,6 +540,8 @@
   <include name="xioami/hal_cm.xml" />
   <include name="xioami/mi-4i.xml" />
   <include name="xioami/opengapps.xml" />
+  <include name="xioami/toolchains.xml />
+
 
 
 </manifest>
