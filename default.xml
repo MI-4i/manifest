@@ -2,12 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
-  <default revision="refs/tags/android-n-preview-3"
+           fetch=".." />
+  <default revision="refs/tags/android-n-preview-5"
            remote="aosp"
            sync-j="4" />
 
- <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -525,6 +525,7 @@
   <project path="system/webservd" name="platform/system/webservd" />
   <project path="toolchain/binutils" name="toolchain/binutils" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
+  <project path="tools/apksig" name="platform/tools/apksig" groups="pdk,tradefed" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
@@ -541,7 +542,5 @@
   <include name="xioami/mi-4i.xml" />
   <include name="xioami/opengapps.xml" />
   <include name="xioami/toolchains.xml />
-
-
 
 </manifest>
